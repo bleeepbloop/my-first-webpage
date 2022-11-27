@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+
+    <style>
+   /* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(225, 155, 181);
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Change color on hover */
+.topnav a:hover {
+  background-color: rgb(105, 145, 205);
+  color: black;
+}
+
+/* Style the content */
+.content {
+  background-color: rgb(247, 191, 195);
+  padding: 10px;
+}
+
+/* Style the footer */
+.comments {
+  background-color: #6a809d;
+  height: 200px;  
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;  
+}
+
+.gallery {
+  background-color:  rgb(247, 191, 195);
+    padding: 100px 10px 10px;
+    height: 10px;
+}
+
+/* find a way to lock the text inside the grid*/
+.bio {
+    background-color: rgb(247, 191, 195);
+    height: 125px;
+
+}
+  a{
+font-family: 'Courier New', Courier, monospace;
+ color: rgb(202, 59, 119);
+}
+            h2{
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 50px;
+                color: rgb(171, 91, 142);
+            }
+        p{
+            font-family: 'courier', serif;
+           color: rgb(149, 119, 146) ;
+           font-size: 25px;
+        }
+        body{
+            background-color: rgb(200, 130, 166);
+        }
+        #button {
+            font-family: 'Courier New', Courier, monospace;
+            color:rgb(171, 91, 142);
+            font-size: small;
+           background-color: beige;
+           border-radius: 16px;
+
+        }
+        /* to make the button change colour when clicked */
+        #button:active {
+            font-family: 'Courier New', Courier, monospace;
+            color:rgb(225, 222, 224);
+            font-size: small;
+           background-color: rgb(247, 123, 197);
+           animation-duration: inherit;
+        }
+
+        p1{
+            color: beige;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        p2{
+            color:antiquewhite;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .comment {  font-family: 'courier', serif;
+           color: rgb(149, 119, 146) ;
+           font-size: 25px;
+
+        }
+        </style>
+</head>
+<body>
+
+<div class="topnav">
+  <p>Check out my socials:</p>
+    <a href = "https://www.linkedin.com/in/farah-bouamra-856b457b">linkedin</a>
+    <a href=" https://instagram.com/farahiscoding?igshid=YmMyMTA2M2Y=">Instagram</a>
+    <a href = "https://twitter.com/farahiscoding">twitter</a>
+  </div>
+  
+  <div class="content">
+    <h2>About me</h2>
+    <img src="farah.jpeg" height="200"/> 
+    <p>Hi! My name is Farah, and this is my first website! 
+      </p>
+    </div>
+
+<div class="bio">
+
+
+<p>I am 29 years old, born in Salford but live and work in London as a Physician Associate.  <br>
+
+My hobbies include hiking, gaming and travel. But most of all, I love sleeping.
+<br>
+<br>
+</p>
+<div/>
+
+<!-- <div class="gallery">
+<p1>Here are some photos I've taken on my travels</p1>
+<img src = "madeira1.jpg" height ="100"/>
+<img src = "madeira2.jpg" height="100"/>
+</div>
+
+  <div class="comments">
+    <p2>What do you think?</p2>
+  </div>
+  
+    <br>
+       -->
+<label for = "comment">What are your hobbies?</label>
+ <br>
+
+<textarea id="comment" name="comment" rows="3" cols="33">My favourite things to do are...</textarea>
+
+</p>
+
+<input id="button" value="add to favourites" type="submit">
+<script src="webpage.js"></script>
+
+</body> 
+
+</html>
